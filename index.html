@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Street & Sons Lawn Care</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f4f8f3;
+    color:#333;
+}
+
+header{
+    background:#2f7d32;
+    padding:20px;
+    text-align:center;
+}
+
+header img{
+    max-width:650px;
+    width:100%;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1600&q=80");
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:1.3rem;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    background:#ff9800;
+    color:white;
+    padding:15px 35px;
+    border-radius:40px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#e68900;
+}
+
+section{
+    padding:70px 10%;
+}
+
+h2{
+    text-align:center;
+    color:#2f7d32;
+    margin-bottom:40px;
+    font-size:2.2rem;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.card h3{
+    color:#2f7d32;
+    margin-bottom:15px;
+}
+
+.about{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+    align-items:center;
+}
+
+.about img{
+    width:100%;
+    border-radius:15px;
+}
+
+.about p{
+    line-height:1.8;
+    font-size:1.05rem;
+}
+
+.testimonials{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.review{
+    background:white;
+    padding:25px;
+    border-left:6px solid #2f7d32;
+    border-radius:10px;
+}
+
+.contact{
+    background:#2f7d32;
+    color:white;
+    text-align:center;
+}
+
+.contact form{
+    max-width:600px;
+    margin:auto;
+}
+
+input,textarea{
+    width:100%;
+    padding:15px;
+    margin:10px 0;
+    border:none;
+    border-radius:8px;
+}
+
+button{
+    background:#ff9800;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    border-radius:40px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+footer{
+    background:#1f1f1f;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+
+.about{
+grid-template-columns:1fr;
+}
+
+.hero h1{
+font-size:2.2rem;
+}
+
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<img src="banner.png" alt="Street & Sons Lawn Care">
+</header>
+
+<section class="hero">
+
+<h1>Professional Lawn Care You Can Trust</h1>
+
+<p>Keeping Your Yard Beautiful All Year Long.</p>
+
+<a href="#contact" class="btn">Request a Free Estimate</a>
+
+</section>
+
+<section>
+
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>🌱 Lawn Mowing</h3>
+<p>Professional weekly and bi-weekly mowing for a healthy lawn.</p>
+</div>
+
+<div class="card">
+<h3>🍂 Leaf Cleanup</h3>
+<p>Seasonal cleanups to keep your property looking its best.</p>
+</div>
+
+<div class="card">
+<h3>🌳 Mulching</h3>
+<p>Fresh mulch installation to improve curb appeal.</p>
+</div>
+
+<div class="card">
+<h3>🌼 Landscape Maintenance</h3>
+<p>Flower beds, trimming, edging, and complete yard care.</p>
+</div>
+
+<div class="card">
+<h3>💦 Sprinkler Repairs</h3>
+<p>Irrigation maintenance and repairs to keep your lawn green.</p>
+</div>
+
+<div class="card">
+<h3>🪵 Yard Cleanup</h3>
+<p>Spring and fall cleanups, debris removal, and more.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>About Street & Sons</h2>
+
+<div class="about">
+
+<img src="banner.png">
+
+<div>
+
+<p>
+Street & Sons Lawn Care is a family-owned business dedicated to providing dependable, affordable, and high-quality lawn care services. We take pride in treating every yard like it's our own.
+</p>
+
+<br>
+
+<p>
+Whether you need routine mowing, mulch installation, seasonal cleanup, or complete landscape maintenance, we're committed to delivering professional results with friendly hometown service.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>What Our Customers Say</h2>
+
+<div class="testimonials">
+
+<div class="review">
+★★★★★<br><br>
+"They always show up on time and my yard has never looked better!"
+<br><br>
+<strong>- Sarah M.</strong>
+</div>
+
+<div class="review">
+★★★★★<br><br>
+"Professional, affordable, and honest. Highly recommend Street & Sons!"
+<br><br>
+<strong>- Mike T.</strong>
+</div>
+
+<div class="review">
+★★★★★<br><br>
+"The best lawn service in town. Great family business!"
+<br><br>
+<strong>- Jennifer R.</strong>
+</div>
+
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2 style="color:white;">Request a Free Estimate</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Email">
+
+<input type="tel" placeholder="Phone Number">
+
+<textarea rows="6" placeholder="Tell us about your project"></textarea>
+
+<button>Send Request</button>
+
+</form>
+
+<br>
+
+<h3>📞 (555) 555-5555</h3>
+
+<h3>📧 info@streetandsons.com</h3>
+
+</section>
+
+<footer>
+
+© 2026 Street & Sons Lawn Care • Licensed & Insured
+
+</footer>
+
+</body>
+</html>
